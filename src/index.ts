@@ -12,7 +12,6 @@ class VinDecoder extends VinParser {
     this.VIS = vin.slice(10, 17);
   }
 
-
 }
 
 const vinDecoded = new VinDecoder('JMZKFGWMA00702223');
